@@ -10,6 +10,10 @@ Skyler is an Organiser, Filter tool, Multi inbox and isolated management of work
 
 For now woking with Gmail as the MVP of product. Still in gmail improvement.
 
+**Time line taken 42 days to deliver first MVP**
+
+---
+
 ### Features:
 
 
@@ -28,6 +32,7 @@ For now woking with Gmail as the MVP of product. Still in gmail improvement.
 - Gives users so much manual control and power, so that they don't miss out anything, beautiful UI so that you don't have to type in gmail to: from:, so yeah direct form based one and change any time easily for each inbox.
 - Data is not collected and mail is stored in cache. Maybe while summarising the body might be sent to groq, and other than that we use our ML models just to process data in the backend. Only uses restricted scope like gmail readonly. 
 
+---
 
 ### Future idea
 
@@ -37,32 +42,30 @@ For now woking with Gmail as the MVP of product. Still in gmail improvement.
 - Maybe like even zapier work flows on combining instances and doing works.
 - Batch Summarisation for inboxes.
 
+---
+
 ## Problem
 
 - Cloud Application and security(CASA), yeah may only add up to 100 users, need to get certificate for this one to quality this standard from any third party, for now using restirctive scope such as gmail readonly.
 
-* * *
+---
 
-## Current usage
-
-Lemme take you some tour so that you can know easily on the stuffs that I am actually doing,
-
-Currently
-
-Frontend: Next js, Next Auth, Google Oauth, Session, Tailwind, ShadCN, Framer motion.  
-Backend: Express js with type script  
-Database: Supabase, Prisma ORM, Dexie for caching mails and adding in local storage of users.  
-Email: Gmail Pull from cloud console(Currently using pull method that uses user access token, refresh token) since we don't have a domain name.  
-Architecture: Turbo pack with PNPM package manager for scaling easily, taking to YC and for longer terms  
-ML model: Xenova/distilbert-base-uncased-finetuned-sst-2-english, sentence-transformers/all-MiniLM-L6-v2.  
-AI: Groq Llama 3.1-8b-instant and langchain for summaristation and for sending replies. 
-Payments: Paypal, Cashfree working.
-Test: Jest. 
-Devops: Docker, Docker-compose
-Others: Ngrok, Zustand, etc.
+## Tech Stack
 
 
-* * *
+- **Frontend**: Next js, Next Auth, Google Oauth, Session, Tailwind, ShadCN, Framer motion.  
+- **Backend**: Express js with type script  
+- **Database**: Supabase, Prisma ORM, Dexie for caching mails and adding in local storage of users.  
+- **Email**: Gmail Pull from cloud console(Currently using pull method that uses user access token, refresh token) since we don't have a domain name.  
+- **Architecture**: Turbo pack with PNPM package manager for scaling easily, taking to YC and for longer terms  
+- **ML model**: Xenova/distilbert-base-uncased-finetuned-sst-2-english, sentence-transformers/all-MiniLM-L6-v2.  
+- **AI**: Groq Llama 3.1-8b-instant and langchain for summaristation and for sending replies. 
+- **Payments**: Paypal, Cashfree working.
+- **Test**: Jest. 
+- **Devops**: Docker, Docker-compose
+- **Others**: Ngrok, Zustand, etc.
+
+---
 
 
 ## Features to add and the business model for money making, and other doubts
@@ -80,10 +83,14 @@ Others: Ngrok, Zustand, etc.
 6. Contact us, support for sending and collecting emails using resend and for now through direct mail. So yeah I am having another professional mail called contact@sanjaybuilds.com. I just going to put over here, yeah so much delaying I just wanna quickly test these things. While the website name used to be skylerInbox.com actually. To much time just going on setting up alone.
 7. CI/CD structure for keep updating in parallel.
 
+---
+
 ## Errors out there and things need to be updated
 
 1. Oauth refresh token errors
 2. change in cashfree and paypal urls.
+
+---
 
 ## Directory structure currently
 ```
