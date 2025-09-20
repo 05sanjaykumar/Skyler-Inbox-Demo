@@ -86,6 +86,7 @@ Others: Ngrok, Zustand, etc.
 2. change in cashfree and paypal urls.
 
 ## Directory structure currently
+```
 Directory structure:
 └── 05sanjaykumar-skyler-ai/
     ├── README.md
@@ -326,3 +327,6 @@ Directory structure:
                 └── code.tsx
 
 
+```
+
+---
