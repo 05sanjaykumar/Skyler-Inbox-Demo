@@ -53,6 +53,8 @@ For now woking with Gmail as the MVP of product. Still in gmail improvement.
 ## Tech Stack
 
 
+### Currently
+
 - **Frontend**: Next js, Next Auth, Google Oauth, Session, Tailwind, ShadCN, Framer motion.  
 - **Backend**: Express js with type script  
 - **Database**: Supabase, Prisma ORM, Dexie for caching mails and adding in local storage of users.  
@@ -63,7 +65,14 @@ For now woking with Gmail as the MVP of product. Still in gmail improvement.
 - **Payments**: Paypal, Cashfree working.
 - **Test**: Jest. 
 - **Devops**: Docker, Docker-compose
-- **Others**: Ngrok, Zustand, etc.
+- **Others**: Ngrok, Zustand, Nginx etc.
+
+### Future addition
+
+- **Analytics**: Google analytics, Plausible, etc.
+- **Monitoring**: Sentry, Posthog, etc.
+- **CI/CD**: Github actions
+- **Payments**: Stripe in future if availabe. 
 
 ---
 
